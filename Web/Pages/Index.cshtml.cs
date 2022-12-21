@@ -51,6 +51,7 @@ public class IndexModel : PageModel
             ret = await response.Content.ReadFromJsonAsync<Balance>();
         }
         
+        
         return ret;
     }
 
